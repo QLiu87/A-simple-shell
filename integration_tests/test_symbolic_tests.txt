@@ -1,0 +1,8 @@
+[ -d src ]
+[ -f CMakeLists.txt ]
+[ -e src/TestParse_S.h ] 
+[ src/main.cpp ]
+[ -d fake/file/path ]
+[ -f fake/file.cpp ]
+[ -e this/doesnt/exist ]
+[ thisisnotthefileyourelookingfor ]
