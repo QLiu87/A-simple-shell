@@ -1,10 +1,3 @@
-# CS 100 Programming Project
-
-# Project Information
-Winter 2019
-Michael Baluja 862009661
-Qi Liu 861231381
-
 # Introduction
 This program is a C++ implementation of a bash command shell. It allows users to execute any command listed in a PATH directory, such as ls, echo, mkdir, etc... To do so, the program uses the system calls execvp(), fork(), and waitpid(). This program also has functionality to execute the test command, as well as it's symbolic [] counterpart. The test command is executed using the stat() function, as well as S_ISREG and S_ISDIR in order to accomodate input flags.
 
